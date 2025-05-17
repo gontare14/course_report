@@ -1,0 +1,172 @@
+<hr>
+<h2 id="front-matter">Front matter</h2>
+<p>title: &quot;Отчет о прохождении 1 этапа внешних курсов&quot;
+subtitle: &quot;Введение&quot;
+author: &quot;Гонтарь Полина Евгеньевна, НБИбд-01-24&quot;</p>
+<h2 id="generic-otions">Generic otions</h2>
+<p>lang: ru-RU
+toc-title: &quot;Содержание&quot;</p>
+<h2 id="bibliography">Bibliography</h2>
+<p>bibliography: bib/cite.bib
+csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl</p>
+<h2 id="pdf-output-format">Pdf output format</h2>
+<h2 id="toc-true--table-of-contents-toc-depth-2-lof-true--list-of-figures-lot-true--list-of-tables-fontsize-12pt-linestretch-15-papersize-a4-documentclass-scrreprt--i18n-polyglossia-polyglossia-lang---name-russian---options-------spellingmodern-------babelshorthandstrue-polyglossia-otherlangs---name-english--i18n-babel-babel-lang-russian-babel-otherlangs-english--fonts-mainfont-pt-serif-romanfont-pt-serif-sansfont-pt-sans-monofont-pt-mono-mainfontoptions-ligaturestex-romanfontoptions-ligaturestex-sansfontoptions-ligaturestexscalematchlowercase-monofontoptions-scalematchlowercasescale09--biblatex-biblatex-true-biblio-style-gost-numeric-biblatexoptions-----parentrackertrue-----backendbiber-----hyperrefauto-----languageauto-----autolangother-----citestylegost-numeric--pandoc-crossref-latex-customization-figuretitle-рис-tabletitle-таблица-listingtitle-листинг-loftitle-список-иллюстраций-lottitle-список-таблиц-loltitle-листинги--misc-options-indent-true-header-includes-----usepackageindentfirst-----usepackagefloat--keep-figures-where-there-are-in-the-text-----floatplacementfigureh--keep-figures-where-there-are-in-the-text">toc: true # Table of contents
+toc-depth: 2
+lof: true # List of figures
+lot: true # List of tables
+fontsize: 12pt
+linestretch: 1.5
+papersize: a4
+documentclass: scrreprt
+## I18n polyglossia
+polyglossia-lang:
+  name: russian
+  options:
+    - spelling=modern
+    - babelshorthands=true
+polyglossia-otherlangs:
+  name: english
+## I18n babel
+babel-lang: russian
+babel-otherlangs: english
+## Fonts
+mainfont: PT Serif
+romanfont: PT Serif
+sansfont: PT Sans
+monofont: PT Mono
+mainfontoptions: Ligatures=TeX
+romanfontoptions: Ligatures=TeX
+sansfontoptions: Ligatures=TeX,Scale=MatchLowercase
+monofontoptions: Scale=MatchLowercase,Scale=0.9
+## Biblatex
+biblatex: true
+biblio-style: &quot;gost-numeric&quot;
+biblatexoptions:
+  - parentracker=true
+  - backend=biber
+  - hyperref=auto
+  - language=auto
+  - autolang=other*
+  - citestyle=gost-numeric
+## Pandoc-crossref LaTeX customization
+figureTitle: &quot;Рис.&quot;
+tableTitle: &quot;Таблица&quot;
+listingTitle: &quot;Листинг&quot;
+lofTitle: &quot;Список иллюстраций&quot;
+lotTitle: &quot;Список таблиц&quot;
+lolTitle: &quot;Листинги&quot;
+## Misc options
+indent: true
+header-includes:
+  - \usepackage{indentfirst}
+  - \usepackage{float} # keep figures where there are in the text
+  - \floatplacement{figure}{H} # keep figures where there are in the text</h2>
+<h1 id="цель-работы">Цель работы</h1>
+<p>Ознакомиться с функционалом операционной системы Linux.</p>
+<h1 id="задание">Задание</h1>
+<p>Просмотреть видео и на основе полученной информации пройти тестовые задания.</p>
+<h1 id="теоретическое-введение">Теоретическое введение</h1>
+<p>Линукс - в части случаев GNU/Linux — семейство Unix-подобных операционных систем на базе ядра Linux, включающих тот или иной набор утилит и программ проекта GNU, и, возможно, другие компоненты. Как и ядро Linux, системы на его основе, как правило, создаются и распространяются в соответствии с моделью разработки свободного и открытого программного обеспечения. Linux-системы распространяются в основном бесплатно в виде различных дистрибутивов — в форме, готовой для установки и удобной для сопровождения и обновлений, — и имеющих свой набор системных и прикладных компонентов, как свободных, так и проприетарных. </p>
+<h1 id="выполнение-лабораторной-работы">Выполнение лабораторной работы</h1>
+<p>1 Этап: (рис. @fig:001, @fig:002, @fig:003, @fig:004, @fig:005, @fig:006, @fig:007, @fig:008, @fig:009, @fig:010, @fig:011, @fig:012, @fig:013, @fig:014, @fig:015, @fig:016, @fig:017, @fig:018, @fig:019, @fig:020, @fig:021, @fig:022, @fig:023, @fig:024, @fig:025, @fig:026, @fig:027, @fig:028, @fig:029, @fig:030, @fig:031, @fig:032).</p>
+<p><img src="image/1.png" alt="Задание 1">{#fig:001 width=70%}</p>
+<p>Курс действительно называется &quot;Введение в Linux&quot;, поэтому с этим вопросом проблем не возникло.</p>
+<p><img src="image/2.png" alt="Задание 2">{#fig:002 width=70%}</p>
+<p>Прочитав критерии прохождения курса, я отметила необходимые утверждения.</p>
+<p><img src="image/3.png" alt="Задание 3">{#fig:003 width=70%}</p>
+<p>Стандартная операционная система, предлагаемая большей частью магазинов - windows, именно она стоит у меня на основном компьютере.</p>
+<p><img src="image/4.png" alt="Задание 4">{#fig:004 width=70%}</p>
+<p>На свой компьютер мы устанавливали специальную программу VirtualBox, которая нужна для подключения одной операционной на другой.</p>
+<p><img src="image/5.png" alt="Задание 5">{#fig:005 width=70%}</p>
+<p>Да, моя виртуальная машина хорошо работает, и у меня получилось запустить с неё Линукс, но в последнее время я чаще использую ноутбук, на котором Линукс стоит как основная операционная система.</p>
+<p><img src="image/6.png" alt="Задание 6">{#fig:006 width=70%}</p>
+<p>Я создала документ, и перед сохранением выбрала нужный формат, а после я ег прикрепила к курсу. Прикрепленный файл видно на скриншоте.</p>
+<p><img src="image/7.png" alt="Задание 7">{#fig:007 width=70%}</p>
+<p>deb — формат пакетов операционных систем проекта Debian. Используется также их производными, такими как Ubuntu, Knoppix и другими.</p>
+<p><img src="image/8.png" alt="Задание 8">{#fig:008 width=70%}</p>
+<p><img src="image/9.png" alt="Задание 8">{#fig:009 width=70%}</p>
+<p>Здесь на скриншоте видно, что установив программу медиапроигрывателя я посмотрела, кто авторы программы и записала первую фамилию.</p>
+<p><img src="image/10.png" alt="Задание 9">{#fig:010 width=70%}</p>
+<p>Менеджер обновлений — это программа для обновления установленного программного обеспечения в дистрибутивах ОС Linux, основанных на Debian или использующих систему управления пакетами APT. Менеджер обновлений устанавливает обновления безопасности или просто улучшающие функциональность программы.</p>
+<p><img src="image/11.png" alt="Задание 10">{#fig:011 width=70%}</p>
+<p>Ассоль - героиня литературного произведения, а термин - это определение.</p>
+<p><img src="image/12.png" alt="Задание 11">{#fig:012 width=70%}</p>
+<p>Интерфейс командной строки Linux является регистрозависимым.</p>
+<p><img src="image/13.png" alt="Задание 12">{#fig:013 width=70%}</p>
+<p>Интерфейс командной строки Linux является регистрозависимым, поэтому не подходит вариант, где буква А - маленькая(строчная).</p>
+<p><img src="image/14.png" alt="Задание 13">{#fig:014 width=70%}</p>
+<p>Я прописываю полный путь до директории Downloads, так как на данный момент нахожусь в другой директории.</p>
+<p><img src="image/15.png" alt="Задание 14">{#fig:015 width=70%}</p>
+<p>rm -r удаление директории и рекуррентное удаление файлов, находящихся в ней.</p>
+<p><img src="image/16.png" alt="Задание 15">{#fig:016 width=70%}</p>
+<p>Это я проверила эмпирическим путём, что видно в ходе скринкаста.</p>
+<p><img src="image/17.png" alt="Задание 16">{#fig:017 width=70%}</p>
+<p>Это запуск программы в фоновом режиме.</p>
+<p><img src="image/18.png" alt="Задание 17">{#fig:018 width=70%}</p>
+<p><img src="image/19.png" alt="Задание 17">{#fig:019 width=70%}</p>
+<p>Здесь видно выполнение команды.</p>
+<p><img src="image/20.png" alt="Задание 18">{#fig:020 width=70%}</p>
+<p>Автоматически поток ошибок выводится на экран - это видно, например, в ходе выполненных лабораторных. В файл будет поток выводиться, если его перенаправить.</p>
+<p><img src="image/21.png" alt="Задание 19">{#fig:021 width=70%}</p>
+<p>&lt; file — использовать файл как источник данных для стандартного потока ввода.</p>
+<blockquote>
+<p>file — направить стандартный поток вывода в файл. Если файл не существует, он будет создан, если существует — перезаписан сверху.</p>
+</blockquote>
+<p>2&gt; file — направить стандартный поток ошибок в файл. Если файл не существует, он будет создан, если существует — перезаписан сверху.</p>
+<blockquote>
+<blockquote>
+<p>file — направить стандартный поток вывода в файл. Если файл не существует, он будет создан, если существует — данные будут дописаны к нему в конец.</p>
+</blockquote>
+</blockquote>
+<p>2&gt;&gt;file — направить стандартный поток ошибок в файл. Если файл не существует, он будет создан, если существует — данные будут дописаны к нему в конец.</p>
+<p>&amp;&gt;file или &gt;&amp;file — направить стандартный поток вывода и стандартный поток ошибок в файл. Другая форма записи: &gt;file 2&gt;&amp;1.</p>
+<p><img src="image/23.png" alt="Задание 20">{#fig:022 width=70%}</p>
+<ol>
+<li><p>cat names.txt | ./interacter.py | less = вывод на экран</p>
+</li>
+<li><p>cat names.txt | ./interacter.py 2&gt;err.txt | less = вывод ошибки в err.txt</p>
+</li>
+</ol>
+<p><img src="image/24.png" alt="Задание 21">{#fig:023 width=70%}</p>
+<p>Команда wget -P /home/alex/Pictures <a href="http://example.com/example.jpg">http://example.com/example.jpg</a>  скачивает файл и даже размещает его, назвав example.jpg, в папке /home/alex/Pictures. Но после этих манипуляций срабатывает часть ключа -O 1.jpg и только что скачаный example.jpg конвертируется в 1.jpg и размещается в текущей директории, в которой мы находимся, потому что путь файла уже не указан, указано только название - 1.jpg.</p>
+<p><img src="image/25.png" alt="Задание 22">{#fig:024 width=70%}</p>
+<p>-q
+--quiet
+    Turn off Wget&#39;s output. </p>
+<p><img src="image/26.png" alt="Задание 23">{#fig:025 width=70%}</p>
+<p>4.2 Типы файлов</p>
+<p>При загрузке материалов из Интернета вы часто захотите ограничить поиск только определенными типами файлов. Например, если вы заинтересованы в загрузке GIF-файлов, вы не будете рады получить кучу документов PostScript, и наоборот.</p>
+<p>Wget предлагает две опции для решения этой проблемы. В описании каждой опции перечислены краткое имя, длинное имя и эквивалентная команда в .wgetrc.</p>
+<p>&#39;-A acclist&#39;
+&#39;--accept acclist&#39;
+&#39;accept = acclist&#39;
+&#39;--accept-regex urlregex&#39;
+&#39;accept-regex = urlregex&#39;</p>
+<pre><code>Аргумент опции &#39;--accept&#39; представляет собой список суффиксов или шаблонов файлов, которые Wget будет загружать при рекурсивном получении. Суффикс - это конечная часть файла, состоящая из &quot;обычных&quot; букв, например, &#39;gif&#39; или &#39;.jpg&#39;. Шаблон совпадения содержит подстановочные знаки типа shell, например, &#39;books*&#39;.
+
+Таким образом, указав &#39;wget -A gif,jpg&#39;, Wget загрузит только файлы, заканчивающиеся на &#39;gif&#39; или &#39;jpg&#39;, то есть GIF и JPEG. С другой стороны, &#39;wget -A &quot;zelazny*196[0-9]*&quot; загрузит только файлы, начинающиеся с &#39;zelazny&#39; и содержащие в себе числа от 1960 до 1969. Описание того, как работает сопоставление шаблонов, можно найти в руководстве к вашей оболочке.
+</code></pre>
+<p><img src="image/27.png" alt="Задание 24">{#fig:026 width=70%}</p>
+<p><img src="image/28.png" alt="Задание 25">{#fig:027 width=70%}</p>
+<p>gzip (сокращение от GNU Zip) — утилита сжатия и восстановления (декомпрессии) файлов, использующая алгоритм Deflate.</p>
+<p><img src="image/29.png" alt="Задание 26">{#fig:028 width=70%}</p>
+<p>c - архиватор</p>
+<p>j - указатель на тип архиватора bzip </p>
+<p>f - потому что создаем архив в файловой системе</p>
+<p><img src="image/30.png" alt="Задание 27">{#fig:029 width=70%}</p>
+<p><code>?</code> = один символ</p>
+<p><code>alexey</code> = маленькая буква</p>
+<p>И файл должен быть <code>jpeg</code>, а не <code>jpg</code></p>
+<p><img src="image/31.png" alt="Задание 28">{#fig:030 width=70%}</p>
+<p>Регистр - маленькая буква, слово - <code>world</code>, а не <code>word</code></p>
+<p><img src="image/32.png" alt="Задание 29">{#fig:031 width=70%}</p>
+<p><img src="image/33.png" alt="Задание 29">{#fig:032 width=70%}</p>
+<p><code>grep -r &quot;love&quot; ~/Shakespeare/ &gt; 1_m.txt</code></p>
+<h1 id="выводы">Выводы</h1>
+<p>Я просмотрела курс и освежила в памяти навыки работы с архивами, скачивание файлов, команды grep и тп.</p>
+<h1 id="список-литературыunnumbered">Список литературы{.unnumbered}</h1>
+<ol>
+<li>Введение в Linux</li>
+</ol>
+<p>::: {#refs}
+:::</p>
